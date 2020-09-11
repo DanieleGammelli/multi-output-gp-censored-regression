@@ -36,4 +36,4 @@ In our work, we show how the proposed model is able to achieve better performanc
 
 <img align="center" src="images/table_results_synthetic.PNG" width="600"/></td>
 <img align="center" src="images/table_results_copenhagen.PNG" width="600"/></td>
-<img align="center" src="images/table_results_newyoork.PNG" width="600"/></td>
+<img align="center" src="images/table_results_newyork.PNG" width="600"/></td>

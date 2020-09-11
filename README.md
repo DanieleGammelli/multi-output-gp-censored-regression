@@ -9,8 +9,8 @@ The full paper is available [here](https://arxiv.org/abs/2009.04822)
 
 | | |
 |:-------------------------:|:-------------------------:|
-|<img width="1604" alt="NCGP" src="images/ncgp_v1.pdf"> |  <img width="1604" alt="HMOCGP_1" src="images/hmocgp_v1.pdf">|
-|<img width="1604" alt="CGP" src="images/cgp_v1.pdf">  |  <img width="1604" alt="HMOCGP_2" src="images/hmocgp_v2.pdf">|
+|<img width="1604" alt="NCGP" src="images/ncgp.PNG"> |  <img width="1604" alt="HMOCGP_1" src="images/hmocgp1.PNG">|
+|<img width="1604" alt="CGP" src="images/cgp.PNG">  |  <img width="1604" alt="HMOCGP_2" src="images/hmocgp2.PNG">|
 
 ## Summary
 
@@ -34,6 +34,6 @@ The notebook contains:
 
 In our work, we show how the proposed model is able to achieve better performance in capturing the latent non-censored process on a variety of different tasks. Below is a summary of the presented results:
 
-<img align="left" src="images/table_results_synthetic.PNG" width="1000"/></td>
-<img align="left" src="images/table_results_copenhagen.PNG" width="1000"/></td>
-<img align="left" src="images/table_results_newyoork.PNG" width="1000"/></td>
+<img align="center" src="images/table_results_synthetic.PNG" width="600"/></td>
+<img align="center" src="images/table_results_copenhagen.PNG" width="600"/></td>
+<img align="center" src="images/table_results_newyoork.PNG" width="600"/></td>

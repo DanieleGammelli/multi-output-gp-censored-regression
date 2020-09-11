@@ -34,6 +34,6 @@ The notebook contains:
 
 In our work, we show how the proposed model is able to achieve better performance in capturing the latent non-censored process on a variety of different tasks. Below is a summary of the presented results:
 
-<img align="center" src="images/table_results_synthetic.PNG" width="600"/></td>
-<img align="center" src="images/table_results_copenhagen.PNG" width="600"/></td>
+<img align="center" src="images/table_results_synthetic.PNG" width="600"/></td> <br />
+<img align="center" src="images/table_results_copenhagen.PNG" width="600"/></td> <br />
 <img align="center" src="images/table_results_newyork.PNG" width="600"/></td>

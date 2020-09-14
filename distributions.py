@@ -180,27 +180,7 @@ class PyroNegBinomial(ExponentialFamily, TorchDistributionMixin):
         
         d = torch.distributions.negative_binomial.NegativeBinomial(total_count=1/alpha, logits=alpha*mu)
         return d.log_prob(value)
-    
 
-class NegBinomial(Likelihood):
-    
-    def __init__(self, variance=None, response_function=None):
-        super().__init__()
-        
-        #self.response_function = torch.exp if response_function is None else response_function
-        self.response_function = torch.nn.Softplus()
-        
-    def forward(self, f_loc, f_var, g_loc, g_var, y=None):
-        mu = self.response_function(f_loc + torch.randn(f_loc.dim(), device=f_loc.device)*f_var)
-        alpha = self.response_function(g_loc + torch.randn(g_loc.dim(), device=g_loc.device)*g_var)
-
-        #y_dist = dists.negative_binomial.NegativeBinomial(total_count=1/alpha, logits=alpha*mu)
-        y_dist = PyroNegBinomial(mu, alpha)
-        self.y_dist = y_dist
-        if y is not None:
-            y_dist = y_dist.expand_by(y.shape[:-mu.dim()]).to_event(y.dim())
-        return pyro.sample("y", y_dist, obs=y)    
-    
     
 class PyroCensoredNegBinomial(ExponentialFamily, TorchDistributionMixin):
     

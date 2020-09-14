@@ -130,7 +130,7 @@ class NegBinomial(Likelihood):
         if y is not None:
             y_dist = y_dist.expand_by(y.shape[:-mu.dim()]).to_event(y.dim())
         return pyro.sample("y", y_dist, obs=y)
-    
+
     
 class CensoredNegBinomial(Likelihood):
     

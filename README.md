@@ -1,7 +1,5 @@
-# Coming Soon!
---------------
-
 # Generalized Multi-Output Gaussian Process Censored Regression
+---------------------------------------------------------------
 
 This repository is the official implementation of the HMOCGP, from *Generalized Multi-Output Gaussian Process Censored Regression*.
 
@@ -26,9 +24,8 @@ A working Jupyter Notebook is provided in `demo-nyc-bike-station3386-1h.ipynb`, 
 
 The notebook contains:
 
-1. TODO
-2. TODO
-3. TODO
+1. Data Loading & Pre-processing
+2. Training & Evaluation code for the NYC Experiment showcasing usage of three different likelihood functions (Gaussian, Poisson and NegBinomial as in Section 3)
 
 ## Summary of results
 
